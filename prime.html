@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Prime Number
+        </title>
+    </head>
+    <body>
+        <script>
+            var a = 11;
+            if(a>1){
+                for(var i=2; i<a; i=i+1){
+                    if(a%i==0){
+                        console.log("not a prime number")
+                        break;
+                    }else{
+                        console.log("Prime number")
+                    }
+                }
+            }else{
+                console.log("Not a Prime Number")
+            }
+
+        </script>
+    </body>
+</html>
